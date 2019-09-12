@@ -27,6 +27,21 @@ echo "Creadby  : Mr.Vc3 $white                                      " |lolcat
 echo "Contact  : 081365443940   $white                             " |lolcat
 echo "---------------------------------------------" | lolcat
 
+clear
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+echo $cyan"[#]> Thanks"
+sleep 1
+echo ""
+echo $white"[#]> see you gayn :)"
+sleep 1
+exit
+}
 
 lagi=1
 while [ $lagi -lt 6 ];
