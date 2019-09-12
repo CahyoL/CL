@@ -1,4 +1,4 @@
-clear
+CLclear
 #!/bin/bash
 #Silahkan di recode :)
 #Jangan Lupa Subscribe MaulanaRyM
